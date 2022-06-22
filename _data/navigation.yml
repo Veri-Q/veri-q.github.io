@@ -1,0 +1,15 @@
+- name: Members
+  link: /members/
+- name: Publications
+  link: /publications/
+- name: Tools
+  link: /tools/
+  dropdown:
+    - name: QDA (Design Automation for Quantum Computing)
+      link: /tools/qda/
+    - name: Quantum Programs Verification and Analysis
+      link: /tools/qpva/
+    - name: Trustworthy Quantum Artificial Intelligence
+      link: /tools/tqai/
+- name: Contact
+  link: /contact/

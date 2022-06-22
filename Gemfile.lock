@@ -9,6 +9,13 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    bulma-clean-theme (0.13.1)
+      jekyll (>= 3.9, < 5.0)
+      jekyll-feed (~> 0.15)
+      jekyll-paginate (~> 1.1)
+      jekyll-seo-tag (~> 2.7)
+      jekyll-sitemap (~> 1.4)
+      kramdown-parser-gfm (~> 1.1)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -257,9 +264,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  bulma-clean-theme
   github-pages
   jekyll-paginate
-  minima
   rake
   webrick (~> 1.7)
 

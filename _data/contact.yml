@@ -1,0 +1,10 @@
+style: is-light
+height: is-medium
+items:
+  - title: Contact
+    #subtitle: Example subtitle 1
+    icon: fa-envelope
+    description: >
+      If you have any problem with VeriQ, please do not hesitate to contact me. 
+    call_to_action_name: Dr. Ji Guan
+    call_to_action_link: guanji1992@gmail.com

@@ -1,0 +1,25 @@
+- label: Tools
+  items:
+    - name: Design Automation for Quantum Computing
+      link: /tools/qda/
+      items:
+        - name: Fault Simulator
+          link: /tools/qda/#fault-simulator
+        - name: ATPG (Automatic Test Pattern Generation)
+          link: /tools/qda/#atpg-automatic-test-pattern-generation
+        - name: Equivalence Checking
+          link: /tools/qda/#equivalence-checking
+    - name: Quantum Programs Verification and Analysis
+      link: /tools/qpva/
+      items:
+        - name: QHLProver
+          link: /tools/qpva/#qhlprover
+        - name: Model Checker
+          link: /tools/qpva/#model-checker
+    - name: Trustworthy Quantum Artificial Intelligence
+      link: /tools/tqai/
+      items:
+        - name: Robustness Verifier
+          link: /tools/tqai/#robustness-verifier
+        - name: Fairness Verifier
+          link: /tools/tqai/#fairness-verifier 
