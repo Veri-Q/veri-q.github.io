@@ -1,0 +1,20 @@
+- label: Faculty
+  items:
+    - name: Mingsheng Ying
+    - name: Shenggang Ying
+    - name: Ji Guan
+- label: Students (Ph.D.)
+  items:
+    - name: xxx
+- label: Students (Master)
+  items:
+    - name: xxx
+- label: Alumni
+  items:
+    - name: xxx
+- label: Internships
+  items:
+    - name: xxx
+- label: Visitors
+  items:
+    - name: xxx

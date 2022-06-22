@@ -2,6 +2,11 @@
   link: /members/
 - name: Publications
   link: /publications/
+  #dropdown:
+  #  - name: Preprint
+  #    link: /publications/preprint/
+  #  - name: Published
+  #    link: /publications/published/
 - name: Tools
   link: /tools/
   dropdown:
@@ -13,3 +18,5 @@
       link: /tools/tqai/
 - name: Contact
   link: /contact/
+- name: Blog
+  link: /blog/

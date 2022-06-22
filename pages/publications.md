@@ -1,6 +1,8 @@
 ---
 title: Publications
 layout: page
-show_sidebar: true
+menubar: menu_publications
 permalink: /publications/
 ---
+
+## Selected Publications
