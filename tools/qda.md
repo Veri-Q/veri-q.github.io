@@ -4,7 +4,7 @@ subtitle: Design Automation for Quantum Computing
 layout: page
 show_sidebar: false
 menubar: menu_tools
-#toc: true
+toc: true
 ---
 
 ## Fault Simulator
@@ -17,4 +17,7 @@ An automatic test pattern generation (ATPG) algorithm for robust quantum circuit
 
 See [{% include tag.html tag="Github Repo" %}](https://github.com/cccorn/Q-ATPG)
 
-## Equivalence Checking
+## TDD (Tensor Decision Diagram)
+A tensor network based decision diagram for representation and operation of tensor networks and quantum circuits.
+
+See [{% include tag.html tag="Github Repo" %}](https://github.com/Veriqc/TDD)
