@@ -1,9 +1,8 @@
-- label: Faculty
+- label: Coodinators
   items:
     - name: Mingsheng Ying
-    - name: Shenggang Ying
     - name: Ji Guan
-- label: Students (Ph.D.)
+- label: Contributors 
   items:
     - name: xxx
 - label: Students (Master)
