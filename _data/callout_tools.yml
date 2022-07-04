@@ -5,8 +5,6 @@ items:
     icon: fa-microchip
     description: >
       
-
-    call_to_action_name: aaa
     call_to_action_link: /tools/qda/
 
   - title: Quantum Programs Verification and Analysis
