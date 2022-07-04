@@ -1,0 +1,22 @@
+style: is-light
+height: is-small
+items:
+  - title: QDA (Design Automation for Quantum Computing)
+    icon: fa-microchip
+    description: >
+      
+
+    call_to_action_name: aaa
+    call_to_action_link: /tools/qda/
+
+  - title: Quantum Programs Verification and Analysis
+    icon: fa-cogs
+    description: >
+
+    call_to_action_link: /tools/qpva/
+
+  - title: Trustworthy Quantum Artificial Intelligence
+    icon: fa-cubes
+    description: >
+
+    call_to_action_link: /tools/tqai/

@@ -1,0 +1,12 @@
+style: is-light
+height: is-small
+items:
+  - title: Ji Guan
+    icon: fa-user-circle
+    description: >
+      He is an outstanding computer scientist
+
+  - title: Mingsheng Ying
+    icon: fa-user-circle
+    description: >
+      

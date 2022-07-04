@@ -2,6 +2,85 @@
 title: Members
 layout: page
 permalink: /members/
-menubar: menu_members
+#menubar: menu_members
 ---
 
+{% assign callouts=site.data.callout_coodinators %}
+<section class="hero {% if callouts.height %} {{ callouts.height }} {% else %} is-medium {% endif %} ">
+    <div class="hero-body">
+        <div class="container">
+            <p class="title is-3 has-text-centered">
+                    <span> Coodinators (By Alphabets) </span>
+            </p>
+            <div class="columns is-multiline is-centered">
+                {% for callout in callouts.items %}
+                    <div class="column is-4 has-text-centered">
+                        {% if callout.icon %}
+                        <div class="icon callout-icon">
+                        {% if callout.icon_brand %}
+                            <i class="fab {{ callout.icon }} fa-4x"></i>
+                        {% else %}
+                            <i class="fas {{ callout.icon }} fa-4x"></i>
+                        {% endif %}
+                        </div>
+                        {% endif %}
+                        <p class="title is-5">{{ callout.title }}</p>
+                        <p class="subtitle is-5">{{ callout.subtitle }}</p>
+                        
+                        {% if callout.description %}
+                        <div class="content">
+                            <p>{{ callout.description | newline_to_br }}</p>
+                        </div>
+                        {% endif %}
+
+                        {% if callout.call_to_action_name %}
+                        <a href="{{ callout.call_to_action_link | relative_url }}" class="button is-primary">
+                            {{ callout.call_to_action_name }}
+                        </a>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% assign callouts=site.data.callout_contributors %}
+<section class="hero {% if callouts.height %} {{ callouts.height }} {% else %} is-medium {% endif %} ">
+    <div class="hero-body">
+        <div class="container">
+            <p class="title is-3 has-text-centered">
+                    <span> Contributors (By Alphabets) </span>
+            </p>
+            <div class="columns is-multiline is-centered">
+                {% for callout in callouts.items %}
+                    <div class="column is-4 has-text-centered">
+                        {% if callout.icon %}
+                        <div class="icon callout-icon">
+                        {% if callout.icon_brand %}
+                            <i class="fab {{ callout.icon }} fa-4x"></i>
+                        {% else %}
+                            <i class="fas {{ callout.icon }} fa-4x"></i>
+                        {% endif %}
+                        </div>
+                        {% endif %}
+                        <p class="title is-5">{{ callout.title }}</p>
+                        <p class="subtitle is-5">{{ callout.subtitle }}</p>
+                        
+                        {% if callout.description %}
+                        <div class="content">
+                            <p>{{ callout.description | newline_to_br }}</p>
+                        </div>
+                        {% endif %}
+
+                        {% if callout.call_to_action_name %}
+                        <a href="{{ callout.call_to_action_link | relative_url }}" class="button is-primary">
+                            {{ callout.call_to_action_name }}
+                        </a>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
