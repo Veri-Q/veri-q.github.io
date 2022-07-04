@@ -8,3 +8,11 @@ layout: page
 #callouts: home_callouts
 show_sidebar: true
 ---
+
+VeriQ is a toolchain for verification of quantum computing, focusing on the following three aspects:
+
+QDA (Design Automation for Quantum Computing)
+
+Quantum Programs Verification and Analysis
+
+Trustworthy Quantum Artificial Intelligence
