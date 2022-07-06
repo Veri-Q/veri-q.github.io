@@ -1,0 +1,1 @@
+pandoc bib.md -t html -o output.html --bibliography preprint.bib
