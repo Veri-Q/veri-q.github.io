@@ -5,6 +5,11 @@ layout: page
 menubar: menu_publications
 permalink: /publications/preprint/
 ---
+<style>
+    table tr {
+        border-bottom: 2px solid #fff;
+    }
+</style>
 
 
 <!-- This document was automatically generated with bibtex2html 1.99
