@@ -1,1 +1,1 @@
-pandoc bib.md -t html -o output.html --bibliography preprint.bib
+bibtex2html -nodoc -nobibsource -d preprint.bib
