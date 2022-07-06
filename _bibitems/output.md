@@ -1,11 +1,3 @@
----
-title: Publications
-subtitle: Preprint
-layout: page
-menubar: menu_publications
-permalink: /publications/preprint/
----
-
 Chen, Kean, Wang Fang, Ji Guan, Xin Hong, Mingyu Huang, Junyi Liu,
 Qisheng Wang, and Mingsheng Ying. 2022. “VeriQBench: A Benchmark for
 Multiple Types of Quantum Circuits.” *arXiv Preprint arXiv:2206.10880*.

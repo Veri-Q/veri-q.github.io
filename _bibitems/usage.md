@@ -1,0 +1,1 @@
+pandoc -t markdown_strict bib.md -o output.md --bibliography preprint.bib
