@@ -15,7 +15,7 @@ show_sidebar: true
 }
 </style>
 
-VeriQ is a toolchain for verification of quantum computing, focusing on the following three aspects:
+## VeriQ is a toolchain for verification of quantum computing, focusing on the following three aspects:
 
 {% assign callouts=site.data.callout_tools %}
 <section class="hero {% if callouts.height %} {{ callouts.height }} {% else %}is-medium {% endif %} ">
