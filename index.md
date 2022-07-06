@@ -6,19 +6,24 @@ title: VeriQ
 subtitle: Verification Toolchain for Quantum Computing
 layout: page
 #callouts: home_callouts
-show_sidebar: true
+#show_sidebar: true
 ---
 
 <style>
 .aa-link {
     color: #438ca9;
 }
+.custom-width {max-width: 800px}
 </style>
 
-## VeriQ is a toolchain for verification of quantum computing, focusing on the following three aspects:
-
+<center>
+<p align="left" class="custom-width">
+<font size="5">
+VeriQ is a toolchain for verification of quantum computing, focusing on the following three aspects:
+</font>
+</p>
 {% assign callouts=site.data.callout_tools %}
-<section class="hero {% if callouts.height %} {{ callouts.height }} {% else %}is-medium {% endif %} ">
+<section class="hero {% if callouts.height %} {{ callouts.height }} {% else %}is-medium {% endif %} custom-width">
     <div class="hero-body">
         <div class="container">
             <div class="columns is-multiline is-centered">
@@ -47,4 +52,19 @@ show_sidebar: true
             </div>
         </div>
     </div>
+<hr>
 </section>
+</center>
+
+<center>
+
+<p class="title is-4 custom-width" align="left">Latest News</p>
+
+<div class="columns is-multiline custom-width">
+    {% for post in site.posts limit:3 %}
+    <div class="column is-12">
+        {% include post-card.html %}
+    </div>
+    {% endfor %}
+</div>
+</center>
