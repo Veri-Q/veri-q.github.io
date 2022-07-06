@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Veri-Q
+title: VeriQ
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Verification Toolchain for Quantum Computing.
