@@ -4,6 +4,7 @@ layout: page
 show_sidebar: false
 menubar: menu_tools
 toc: true
+hero_height: 400px
 ---
 
 ## Approximate Equivalence Checker

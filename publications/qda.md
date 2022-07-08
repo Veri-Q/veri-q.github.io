@@ -1,7 +1,9 @@
 ---
 title: Publications
+subtitle: QDA (Design Automation for Quantum Computing)
 layout: page
 menubar: menu_publications
+hero_height: 400px
 ---
 
 <style>
@@ -10,20 +12,49 @@ menubar: menu_publications
     }
 </style>
 
-## QDA
-
 
 <!-- This document was automatically generated with bibtex2html 1.99
      (see http://www.lri.fr/~filliatr/bibtex2html/),
      with the following command:
-     bibtex2html -nodoc -nobibsource -html-entities -d -r qda.bib  -->
+     bibtex2html -nodoc -nobibsource -noabstract -nokeywords -html-entities -d -r qda.bib  -->
 
 
 <table>
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/dac/HongY0ZL21">1</a>]
+[<a name="10.1145/3514355">1</a>]
+</td>
+<td class="bibtexitem">
+Xin Hong, Xiangzhen Zhou, Sanjiang Li, Yuan Feng, and Mingsheng Ying.
+ A tensor network based decision diagram for representation of quantum
+  circuits.
+ <em>ACM Trans. Des. Autom. Electron. Syst.</em>, 27(6), jun 2022.
+[&nbsp;<a href="http://dx.doi.org/10.1145/3514355">DOI</a>&nbsp;| 
+<a href="https://doi.org/10.1145/3514355">http</a>&nbsp;]
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="9557747">2</a>]
+</td>
+<td class="bibtexitem">
+Qisheng Wang, Riling Li, and Mingsheng Ying.
+ Equivalence checking of sequential quantum circuits.
+ <em>IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems</em>, pages 1&ndash;1, 2021.
+[&nbsp;<a href="http://dx.doi.org/10.1109/TCAD.2021.3117506">DOI</a>&nbsp;]
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="DBLP:conf/dac/HongY0ZL21">3</a>]
 </td>
 <td class="bibtexitem">
 Xin Hong, Mingsheng Ying, Yuan Feng, Xiangzhen Zhou, and Sanjiang Li.

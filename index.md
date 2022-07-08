@@ -7,6 +7,7 @@ subtitle: Verification Toolchain for Quantum Computing
 layout: page
 #callouts: home_callouts
 #show_sidebar: true
+hero_height: 400px
 ---
 
 <style>

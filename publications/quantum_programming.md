@@ -1,7 +1,9 @@
 ---
 title: Publications
+subtitle: Quantum Programming
 layout: page
 menubar: menu_publications
+hero_height: 400px
 ---
 
 <style>
@@ -9,8 +11,6 @@ menubar: menu_publications
         border-bottom: 2px solid #fff;
     }
 </style>
-
-## Quantum Programming
 
 
 <!-- This document was automatically generated with bibtex2html 1.99

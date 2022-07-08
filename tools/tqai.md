@@ -4,6 +4,7 @@ layout: page
 show_sidebar: false
 menubar: menu_tools
 toc: true
+hero_height: 400px
 ---
 
 In the *Trustworthy Quantum Artificial Intelligence* project in VeriQ, we explore new methods and develop a series of tools to verify Quantum Artificial Intelligence (QAI) models such as quantum deep neural networks and quantum convolutional neural networks. On the basis of our defined formal frameworks, these tools can not only automatically check the trustworthy properties (e.g., robustness and fairness) of QAI models, but also provide counterexamples indicating how the models are not satisfied with the properties.  

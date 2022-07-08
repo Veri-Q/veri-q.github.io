@@ -7,6 +7,8 @@
         link: /publications/quantum_programming/
       - name: QDA
         link: /publications/qda/
+      - name: Trustworthy Quantum Artificial Intelligence
+        link: /publications/tqai/
   - name: Preprint
     link: /publications/preprint/
   

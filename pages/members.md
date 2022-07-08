@@ -3,13 +3,25 @@ title: Members
 layout: page
 permalink: /members/
 #menubar: menu_members
+hero_height: custom
 ---
 
+<style>
+.aa-link {
+    color: #438ca9;
+}
+.custom-width {max-width: 800px}
+.hero.custom {
+  padding: 1.25rem;
+}
+</style>
+
+<center>
 {% assign callouts=site.data.callout_coodinators %}
-<section class="hero {% if callouts.height %} {{ callouts.height }} {% else %} is-medium {% endif %} ">
+<section class="hero {% if callouts.height %} {{ callouts.height }} {% else %} is-medium {% endif %} custom-width">
     <div class="hero-body">
         <div class="container">
-            <p class="title is-3 has-text-centered">
+            <p class="is-4 has-text-centered">
                     <span> Coodinators (By Alphabets) </span>
             </p>
             <div class="columns is-multiline is-centered">
@@ -46,10 +58,10 @@ permalink: /members/
 </section>
 
 {% assign callouts=site.data.callout_contributors %}
-<section class="hero {% if callouts.height %} {{ callouts.height }} {% else %} is-medium {% endif %} ">
+<section class="hero {% if callouts.height %} {{ callouts.height }} {% else %} is-medium {% endif %} custom-width">
     <div class="hero-body">
         <div class="container">
-            <p class="title is-3 has-text-centered">
+            <p class="is-4 has-text-centered">
                     <span> Contributors (By Alphabets) </span>
             </p>
             <div class="columns is-multiline is-centered">
@@ -84,3 +96,4 @@ permalink: /members/
         </div>
     </div>
 </section>
+</center>

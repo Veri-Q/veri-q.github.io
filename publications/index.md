@@ -1,7 +1,9 @@
 ---
 title: Publications
+subtitle: Published
 layout: page
 menubar: menu_publications
+hero_height: 400px
 ---
 
 <style>
@@ -12,18 +14,33 @@ menubar: menu_publications
 
 
 
-
 <!-- This document was automatically generated with bibtex2html 1.99
      (see http://www.lri.fr/~filliatr/bibtex2html/),
      with the following command:
-     bibtex2html -nodoc -nobibsource -html-entities -d -r all.bib  -->
+     bibtex2html -nodoc -nobibsource -noabstract -nokeywords -html-entities -d -r all.bib  -->
 
 
 <table>
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/pldi/PengYW22">1</a>]
+[<a name="10.1145/3514355">1</a>]
+</td>
+<td class="bibtexitem">
+Xin Hong, Xiangzhen Zhou, Sanjiang Li, Yuan Feng, and Mingsheng Ying.
+ A tensor network based decision diagram for representation of quantum
+  circuits.
+ <em>ACM Trans. Des. Autom. Electron. Syst.</em>, 27(6), jun 2022.
+[&nbsp;<a href="http://dx.doi.org/10.1145/3514355">DOI</a>&nbsp;| 
+<a href="https://doi.org/10.1145/3514355">http</a>&nbsp;]
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="DBLP:conf/pldi/PengYW22">2</a>]
 </td>
 <td class="bibtexitem">
 Yuxiang Peng, Mingsheng Ying, and Xiaodi Wu.
@@ -42,7 +59,7 @@ Yuxiang Peng, Mingsheng Ying, and Xiaodi Wu.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tcs/YingZL022">2</a>]
+[<a name="DBLP:journals/tcs/YingZL022">3</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying, Li&nbsp;Zhou, Yangjia Li, and Yuan Feng.
@@ -57,7 +74,22 @@ Mingsheng Ying, Li&nbsp;Zhou, Yangjia Li, and Yuan Feng.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/lics/ZhouBHYY21">3</a>]
+[<a name="9557747">4</a>]
+</td>
+<td class="bibtexitem">
+Qisheng Wang, Riling Li, and Mingsheng Ying.
+ Equivalence checking of sequential quantum circuits.
+ <em>IEEE Transactions on Computer-Aided Design of Integrated
+  Circuits and Systems</em>, pages 1&ndash;1, 2021.
+[&nbsp;<a href="http://dx.doi.org/10.1109/TCAD.2021.3117506">DOI</a>&nbsp;]
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="DBLP:conf/lics/ZhouBHYY21">5</a>]
 </td>
 <td class="bibtexitem">
 Li&nbsp;Zhou, Gilles Barthe, Justin Hsu, Mingsheng Ying, and Nengkun Yu.
@@ -75,7 +107,7 @@ Li&nbsp;Zhou, Gilles Barthe, Justin Hsu, Mingsheng Ying, and Nengkun Yu.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/fm/Ying21">4</a>]
+[<a name="DBLP:conf/fm/Ying21">6</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying.
@@ -93,7 +125,7 @@ Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/dac/HongY0ZL21">5</a>]
+[<a name="DBLP:conf/dac/HongY0ZL21">7</a>]
 </td>
 <td class="bibtexitem">
 Xin Hong, Mingsheng Ying, Yuan Feng, Xiangzhen Zhou, and Sanjiang Li.
@@ -109,25 +141,7 @@ Xin Hong, Mingsheng Ying, Yuan Feng, Xiangzhen Zhou, and Sanjiang Li.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/cav/GuanFY21">6</a>]
-</td>
-<td class="bibtexitem">
-Ji&nbsp;Guan, Wang Fang, and Mingsheng Ying.
- Robustness verification of quantum classifiers.
- In Alexandra Silva and K.&nbsp;Rustan&nbsp;M. Leino, editors, <em>Computer
-  Aided Verification - 33rd International Conference, CAV 2021, Virtual
-  Event, July 20-23, 2021, Proceedings, Part I</em>, volume 12759 of <em>Lecture
-  Notes in Computer Science</em>, pages 151&ndash;174. Springer, 2021.
-[&nbsp;<a href="http://dx.doi.org/10.1007/978-3-030-81685-8\_7">DOI</a>&nbsp;| 
-<a href="https://doi.org/10.1007/978-3-030-81685-8\_7">http</a>&nbsp;]
-
-</td>
-</tr>
-
-
-<tr valign="top">
-<td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/qic/GuanWY21">7</a>]
+[<a name="DBLP:journals/qic/GuanWY21">8</a>]
 </td>
 <td class="bibtexitem">
 Ji&nbsp;Guan, Qisheng Wang, and Mingsheng Ying.
@@ -142,7 +156,7 @@ Ji&nbsp;Guan, Qisheng Wang, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/jcss/WangLY21">8</a>]
+[<a name="DBLP:journals/jcss/WangLY21">9</a>]
 </td>
 <td class="bibtexitem">
 Qisheng Wang, Junyi Liu, and Mingsheng Ying.
@@ -157,7 +171,7 @@ Qisheng Wang, Junyi Liu, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/ijautcomp/YingFY21">9</a>]
+[<a name="DBLP:journals/ijautcomp/YingFY21">10</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying, Yuan Feng, and Shenggang Ying.
@@ -172,7 +186,7 @@ Mingsheng Ying, Yuan Feng, and Shenggang Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/pacmpl/BartheHYYZ20">10</a>]
+[<a name="DBLP:journals/pacmpl/BartheHYYZ20">11</a>]
 </td>
 <td class="bibtexitem">
 Gilles Barthe, Justin Hsu, Mingsheng Ying, Nengkun Yu, and Li&nbsp;Zhou.
@@ -187,7 +201,7 @@ Gilles Barthe, Justin Hsu, Mingsheng Ying, Nengkun Yu, and Li&nbsp;Zhou.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/pacmpl/LiZYDY020">11</a>]
+[<a name="DBLP:journals/pacmpl/LiZYDY020">12</a>]
 </td>
 <td class="bibtexitem">
 Gushu Li, Li&nbsp;Zhou, Nengkun Yu, Yufei Ding, Mingsheng Ying, and Yuan Xie.
@@ -203,7 +217,7 @@ Gushu Li, Li&nbsp;Zhou, Nengkun Yu, Yufei Ding, Mingsheng Ying, and Yuan Xie.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tpds/LiWYSY20">12</a>]
+[<a name="DBLP:journals/tpds/LiWYSY20">13</a>]
 </td>
 <td class="bibtexitem">
 Riling Li, Bujiao Wu, Mingsheng Ying, Xiaoming Sun, and Guangwen Yang.
@@ -218,7 +232,7 @@ Riling Li, Bujiao Wu, Mingsheng Ying, Xiaoming Sun, and Guangwen Yang.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tcs/ZhouYYY20">13</a>]
+[<a name="DBLP:journals/tcs/ZhouYYY20">14</a>]
 </td>
 <td class="bibtexitem">
 Li&nbsp;Zhou, Shenggang Ying, Nengkun Yu, and Mingsheng Ying.
@@ -233,7 +247,7 @@ Li&nbsp;Zhou, Shenggang Ying, Nengkun Yu, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/pldi/ZhouYY19">14</a>]
+[<a name="DBLP:conf/pldi/ZhouYY19">15</a>]
 </td>
 <td class="bibtexitem">
 Li&nbsp;Zhou, Nengkun Yu, and Mingsheng Ying.
@@ -251,7 +265,7 @@ Li&nbsp;Zhou, Nengkun Yu, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/cav/LiuZWYLLYZ19">15</a>]
+[<a name="DBLP:conf/cav/LiuZWYLLYZ19">16</a>]
 </td>
 <td class="bibtexitem">
 Junyi Liu, Bohua Zhan, Shuling Wang, Shenggang Ying, Tao Liu, Yangjia Li,
@@ -270,7 +284,7 @@ Junyi Liu, Bohua Zhan, Shuling Wang, Shenggang Ying, Tao Liu, Yangjia Li,
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/pacmpl/HungHZYHW19">16</a>]
+[<a name="DBLP:journals/pacmpl/HungHZYHW19">17</a>]
 </td>
 <td class="bibtexitem">
 Shih-Han Hung, Kesha Hietala, Shaopeng Zhu, Mingsheng Ying, Michael Hicks,
@@ -286,7 +300,7 @@ Shih-Han Hung, Kesha Hietala, Shaopeng Zhu, Mingsheng Ying, Michael Hicks,
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/fac/Ying19">17</a>]
+[<a name="DBLP:journals/fac/Ying19">18</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying.
@@ -301,7 +315,7 @@ Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/afp/LiuZWYLLYZ19">18</a>]
+[<a name="DBLP:journals/afp/LiuZWYLLYZ19">19</a>]
 </td>
 <td class="bibtexitem">
 Junyi Liu, Bohua Zhan, Shuling Wang, Shenggang Ying, Tao Liu, Yangjia Li,
@@ -316,7 +330,7 @@ Junyi Liu, Bohua Zhan, Shuling Wang, Shenggang Ying, Tao Liu, Yangjia Li,
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/pacmpl/LiY18">19</a>]
+[<a name="DBLP:journals/pacmpl/LiY18">20</a>]
 </td>
 <td class="bibtexitem">
 Yangjia Li and Mingsheng Ying.
@@ -331,7 +345,7 @@ Yangjia Li and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/qic/GuanFY18">20</a>]
+[<a name="DBLP:journals/qic/GuanFY18">21</a>]
 </td>
 <td class="bibtexitem">
 Ji&nbsp;Guan, Yuan Feng, and Mingsheng Ying.
@@ -346,7 +360,7 @@ Ji&nbsp;Guan, Yuan Feng, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/jcss/GuanFY18">21</a>]
+[<a name="DBLP:journals/jcss/GuanFY18">22</a>]
 </td>
 <td class="bibtexitem">
 Ji&nbsp;Guan, Yuan Feng, and Mingsheng Ying.
@@ -361,7 +375,7 @@ Ji&nbsp;Guan, Yuan Feng, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/iandc/YingY18">22</a>]
+[<a name="DBLP:journals/iandc/YingY18">23</a>]
 </td>
 <td class="bibtexitem">
 Shenggang Ying and Mingsheng Ying.
@@ -376,7 +390,7 @@ Shenggang Ying and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/popl/YingYW17">23</a>]
+[<a name="DBLP:conf/popl/YingYW17">24</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying, Shenggang Ying, and Xiaodi Wu.
@@ -394,7 +408,7 @@ Mingsheng Ying, Shenggang Ying, and Xiaodi Wu.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/csfw/ZhouY17">24</a>]
+[<a name="DBLP:conf/csfw/ZhouY17">25</a>]
 </td>
 <td class="bibtexitem">
 Li&nbsp;Zhou and Mingsheng Ying.
@@ -411,7 +425,7 @@ Li&nbsp;Zhou and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/concur/FengY15">25</a>]
+[<a name="DBLP:conf/concur/FengY15">26</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng and Mingsheng Ying.
@@ -429,7 +443,7 @@ Yuan Feng and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/acta/LiYY14">26</a>]
+[<a name="DBLP:journals/acta/LiYY14">27</a>]
 </td>
 <td class="bibtexitem">
 Yangjia Li, Nengkun Yu, and Mingsheng Ying.
@@ -444,7 +458,7 @@ Yangjia Li, Nengkun Yu, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/concur/LiY14">27</a>]
+[<a name="DBLP:conf/concur/LiY14">28</a>]
 </td>
 <td class="bibtexitem">
 Yangjia Li and Mingsheng Ying.
@@ -462,7 +476,7 @@ Yangjia Li and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tocl/YingLYF14">28</a>]
+[<a name="DBLP:journals/tocl/YingLYF14">29</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying, Yangjia Li, Nengkun Yu, and Yuan Feng.
@@ -477,7 +491,7 @@ Mingsheng Ying, Yangjia Li, Nengkun Yu, and Yuan Feng.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tocl/FengDY14">29</a>]
+[<a name="DBLP:journals/tocl/FengDY14">30</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Yuxin Deng, and Mingsheng Ying.
@@ -492,7 +506,7 @@ Yuan Feng, Yuxin Deng, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tit/YuDY14">30</a>]
+[<a name="DBLP:journals/tit/YuDY14">31</a>]
 </td>
 <td class="bibtexitem">
 Nengkun Yu, Runyao Duan, and Mingsheng Ying.
@@ -508,7 +522,7 @@ Nengkun Yu, Runyao Duan, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/scp/YingYFD13">31</a>]
+[<a name="DBLP:journals/scp/YingYFD13">32</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying, Nengkun Yu, Yuan Feng, and Runyao Duan.
@@ -523,7 +537,7 @@ Mingsheng Ying, Nengkun Yu, Yuan Feng, and Runyao Duan.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/mfcs/FengYY13">32</a>]
+[<a name="DBLP:conf/mfcs/FengYY13">33</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Nengkun Yu, and Mingsheng Ying.
@@ -542,7 +556,7 @@ Yuan Feng, Nengkun Yu, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/csfw/YingFY13">33</a>]
+[<a name="DBLP:conf/csfw/YingFY13">34</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying, Yuan Feng, and Nengkun Yu.
@@ -560,7 +574,7 @@ Mingsheng Ying, Yuan Feng, and Nengkun Yu.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/concur/YingFYY13">34</a>]
+[<a name="DBLP:conf/concur/YingFYY13">35</a>]
 </td>
 <td class="bibtexitem">
 Shenggang Ying, Yuan Feng, Nengkun Yu, and Mingsheng Ying.
@@ -578,7 +592,7 @@ Shenggang Ying, Yuan Feng, Nengkun Yu, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/jcss/FengYY13">35</a>]
+[<a name="DBLP:journals/jcss/FengYY13">36</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Nengkun Yu, and Mingsheng Ying.
@@ -593,7 +607,7 @@ Yuan Feng, Nengkun Yu, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/jcss/CaoXY13">36</a>]
+[<a name="DBLP:journals/jcss/CaoXY13">37</a>]
 </td>
 <td class="bibtexitem">
 Yongzhi Cao, Lirong Xia, and Mingsheng Ying.
@@ -608,7 +622,7 @@ Yongzhi Cao, Lirong Xia, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/concur/YuY12">37</a>]
+[<a name="DBLP:conf/concur/YuY12">38</a>]
 </td>
 <td class="bibtexitem">
 Nengkun Yu and Mingsheng Ying.
@@ -626,7 +640,7 @@ Nengkun Yu and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/toplas/FengDY12">38</a>]
+[<a name="DBLP:journals/toplas/FengDY12">39</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Runyao Duan, and Mingsheng Ying.
@@ -641,7 +655,7 @@ Yuan Feng, Runyao Duan, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tcs/ZhouY12">39</a>]
+[<a name="DBLP:journals/tcs/ZhouY12">40</a>]
 </td>
 <td class="bibtexitem">
 Chunlai Zhou and Mingsheng Ying.
@@ -656,7 +670,7 @@ Chunlai Zhou and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tse/YingF11">40</a>]
+[<a name="DBLP:journals/tse/YingF11">41</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying and Yuan Feng.
@@ -671,7 +685,7 @@ Mingsheng Ying and Yuan Feng.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/toplas/Ying11">41</a>]
+[<a name="DBLP:journals/toplas/Ying11">42</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying.
@@ -686,7 +700,7 @@ Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/popl/FengDY11">42</a>]
+[<a name="DBLP:conf/popl/FengDY11">43</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Runyao Duan, and Mingsheng Ying.
@@ -704,7 +718,7 @@ Yuan Feng, Runyao Duan, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/ijcai/ZhangZYZ11">43</a>]
+[<a name="DBLP:conf/ijcai/ZhangZYZ11">44</a>]
 </td>
 <td class="bibtexitem">
 Heng Zhang, Yan Zhang, Mingsheng Ying, and Yi&nbsp;Zhou.
@@ -721,7 +735,7 @@ Heng Zhang, Yan Zhang, Mingsheng Ying, and Yi&nbsp;Zhou.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/acta/YingF10">44</a>]
+[<a name="DBLP:journals/acta/YingF10">45</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying and Yuan Feng.
@@ -736,7 +750,7 @@ Mingsheng Ying and Yuan Feng.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/aplas/Ying10">45</a>]
+[<a name="DBLP:conf/aplas/Ying10">46</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying.
@@ -754,7 +768,7 @@ Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/qic/ChenY10">46</a>]
+[<a name="DBLP:journals/qic/ChenY10">47</a>]
 </td>
 <td class="bibtexitem">
 Jianxin Chen and Mingsheng Ying.
@@ -769,7 +783,7 @@ Jianxin Chen and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/qic/JiCWY10">47</a>]
+[<a name="DBLP:journals/qic/JiCWY10">48</a>]
 </td>
 <td class="bibtexitem">
 Zheng-Feng Ji, Jianxin Chen, Zhaohui Wei, and Mingsheng Ying.
@@ -784,7 +798,7 @@ Zheng-Feng Ji, Jianxin Chen, Zhaohui Wei, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/ai/Ying10">48</a>]
+[<a name="DBLP:journals/ai/Ying10">49</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying.
@@ -799,7 +813,7 @@ Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tocl/YingFDJ09">49</a>]
+[<a name="DBLP:journals/tocl/YingFDJ09">50</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying, Yuan Feng, Runyao Duan, and Zheng-Feng Ji.
@@ -814,7 +828,7 @@ Mingsheng Ying, Yuan Feng, Runyao Duan, and Zheng-Feng Ji.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tit/DuanFXY09">50</a>]
+[<a name="DBLP:journals/tit/DuanFXY09">51</a>]
 </td>
 <td class="bibtexitem">
 Runyao Duan, Yuan Feng, Yu&nbsp;Xin, and Mingsheng Ying.
@@ -829,7 +843,7 @@ Runyao Duan, Yuan Feng, Yu&nbsp;Xin, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tc/YingF09">51</a>]
+[<a name="DBLP:journals/tc/YingF09">52</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying and Yuan Feng.
@@ -844,7 +858,7 @@ Mingsheng Ying and Yuan Feng.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/qic/FengDY11">52</a>]
+[<a name="DBLP:journals/qic/FengDY11">53</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Runyao Duan, and Mingsheng Ying.
@@ -860,7 +874,7 @@ Yuan Feng, Runyao Duan, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tit/JiWDFY08">53</a>]
+[<a name="DBLP:journals/tit/JiWDFY08">54</a>]
 </td>
 <td class="bibtexitem">
 Zheng-Feng Ji, Guoming Wang, Runyao Duan, Yuan Feng, and Mingsheng Ying.
@@ -875,7 +889,7 @@ Zheng-Feng Ji, Guoming Wang, Runyao Duan, Yuan Feng, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tcs/FengDJY07">54</a>]
+[<a name="DBLP:journals/tcs/FengDJY07">55</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Runyao Duan, Zheng-Feng Ji, and Mingsheng Ying.
@@ -890,7 +904,7 @@ Yuan Feng, Runyao Duan, Zheng-Feng Ji, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/ipl/YingCFD07">55</a>]
+[<a name="DBLP:journals/ipl/YingCFD07">56</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying, Jianxin Chen, Yuan Feng, and Runyao Duan.
@@ -905,7 +919,7 @@ Mingsheng Ying, Jianxin Chen, Yuan Feng, and Runyao Duan.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/iandc/FengDJY07">56</a>]
+[<a name="DBLP:journals/iandc/FengDJY07">57</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Runyao Duan, Zheng-Feng Ji, and Mingsheng Ying.
@@ -920,7 +934,7 @@ Yuan Feng, Runyao Duan, Zheng-Feng Ji, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tit/DuanFY06">57</a>]
+[<a name="DBLP:journals/tit/DuanFY06">58</a>]
 </td>
 <td class="bibtexitem">
 Runyao Duan, Yuan Feng, and Mingsheng Ying.
@@ -935,7 +949,7 @@ Runyao Duan, Yuan Feng, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/jcst/DuanJFY06">58</a>]
+[<a name="DBLP:journals/jcst/DuanJFY06">59</a>]
 </td>
 <td class="bibtexitem">
 Runyao Duan, Zheng-Feng Ji, Yuan Feng, and Mingsheng Ying.
@@ -950,7 +964,7 @@ Runyao Duan, Zheng-Feng Ji, Yuan Feng, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/grc/Ying05">59</a>]
+[<a name="DBLP:conf/grc/Ying05">60</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying.
@@ -967,7 +981,7 @@ Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tit/FengDY05">60</a>]
+[<a name="DBLP:journals/tit/FengDY05">61</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Runyao Duan, and Mingsheng Ying.
@@ -982,7 +996,7 @@ Yuan Feng, Runyao Duan, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tit/SunDY05">61</a>]
+[<a name="DBLP:journals/tit/SunDY05">62</a>]
 </td>
 <td class="bibtexitem">
 Xiaoming Sun, Runyao Duan, and Mingsheng Ying.
@@ -997,7 +1011,7 @@ Xiaoming Sun, Runyao Duan, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tcs/Ying05">62</a>]
+[<a name="DBLP:journals/tcs/Ying05">63</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying.
@@ -1012,7 +1026,7 @@ Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/acta/Ying05">63</a>]
+[<a name="DBLP:journals/acta/Ying05">64</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying.
@@ -1027,7 +1041,7 @@ Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tcs/QiuY04">64</a>]
+[<a name="DBLP:journals/tcs/QiuY04">65</a>]
 </td>
 <td class="bibtexitem">
 Daowen Qiu and Mingsheng Ying.

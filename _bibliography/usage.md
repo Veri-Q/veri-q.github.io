@@ -1,1 +1,1 @@
-bibtex2html -nodoc -nobibsource -d -r preprint.bib
+bibtex2html -nodoc -nobibsource -noabstract -nokeywords -html-entities -d -r bib.bib
