@@ -1,1 +1,1 @@
-bibtex2html -nodoc -nobibsource -d preprint.bib
+bibtex2html -nodoc -nobibsource -d -r preprint.bib

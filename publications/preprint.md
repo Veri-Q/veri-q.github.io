@@ -3,7 +3,6 @@ title: Publications
 subtitle: Preprint
 layout: page
 menubar: menu_publications
-permalink: /publications/preprint/
 ---
 <style>
     table tr {

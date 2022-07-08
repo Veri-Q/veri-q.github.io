@@ -8,7 +8,7 @@
   #  - name: Published
   #    link: /publications/published/
 - name: Tools
-  link: 
+  link: /tools/qda/
   dropdown:
     - name: QDA (Design Automation for Quantum Computing)
       link: /tools/qda/

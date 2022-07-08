@@ -1,6 +1,12 @@
 - label: Publications
   items:
+  - name: Published
+    link: /publications/
+    items:
+      - name: Quantum Programming
+        link: /publications/quantum_programming/
+      - name: QDA
+        link: /publications/qda/
   - name: Preprint
     link: /publications/preprint/
-  - name: Published
-    link: /publications/published/
+  
