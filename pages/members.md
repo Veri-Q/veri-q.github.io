@@ -22,7 +22,7 @@ hero_height: custom
     <div class="hero-body">
         <div class="container">
             <p class="is-4 has-text-centered">
-                    <span> Coodinators (By Alphabets) </span>
+                    <span> Coodinators (by alphabets) </span>
             </p>
             <div class="columns is-multiline is-centered">
                 {% for callout in callouts.items %}
@@ -62,7 +62,7 @@ hero_height: custom
     <div class="hero-body">
         <div class="container">
             <p class="is-4 has-text-centered">
-                    <span> Contributors (By Alphabets) </span>
+                    <span> Contributors (by alphabets) </span>
             </p>
             <div class="columns is-multiline is-centered">
                 {% for callout in callouts.items %}
