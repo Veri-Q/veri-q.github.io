@@ -13,6 +13,20 @@ A python toolbox for robustness verification of quantum classifiers.
 
 See [{% include tag.html tag="Github Repo" %}](https://github.com/Veri-Q/Robustness)
 
+<td align="right" class="bibtexnumber">
+[<a name="DBLP:conf/cav/GuanFY21">1</a>]
+</td>
+<td class="bibtexitem">
+Ji&nbsp;Guan, Wang Fang, and Mingsheng Ying.
+ Robustness verification of quantum classifiers.
+ In <em>Computer Aided Verification - 33rd International Conference,
+  CAV 2021</em>, volume 12759 of <em>Lecture Notes in Computer Science</em>, pages
+  151&ndash;174. Springer, 2021.
+[&nbsp;<a href="http://dx.doi.org/10.1007/978-3-030-81685-8\_7">DOI</a>&nbsp;| 
+<a href="https://doi.org/10.1007/978-3-030-81685-8\_7">http</a>&nbsp;]
+
+</td>
+
 ## Fairness Verifier
 A python toolbox for fairness verification of quantum decision models by computing the Lipschitz constant of the models.
 

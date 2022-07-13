@@ -228,7 +228,7 @@ Riling Li, Bujiao Wu, Mingsheng Ying, Xiaoming Sun, and Guangwen Yang.
  <em>IEEE Trans. Parallel Distributed Syst.</em>, 31(4):805&ndash;816, 2020.
 [&nbsp;<a href="http://dx.doi.org/10.1109/TPDS.2019.2947511">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1109/TPDS.2019.2947511">http</a>&nbsp;]
-{% include tag.html tag="2020 Best paper Award for IEEE Transactions on Parallel and Distributed Systems" style="custom_tag is-primary"%}
+{% include tag.html tag="2020 Best Paper Award for IEEE Transactions on Parallel and Distributed Systems" style="custom_tag is-primary"%}
 </td>
 </tr>
 
