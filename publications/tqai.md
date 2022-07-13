@@ -4,6 +4,8 @@ subtitle: Trustworthy Quantum Artificial Intelligence
 layout: page
 menubar: menu_publications
 hero_height: 400px
+menu_image: /publications/book_cover.jpg
+menu_image_caption: Foundations of Quantum Programming
 ---
 
 <style>
@@ -13,10 +15,11 @@ hero_height: 400px
 </style>
 
 
+
 <!-- This document was automatically generated with bibtex2html 1.99
      (see http://www.lri.fr/~filliatr/bibtex2html/),
      with the following command:
-     bibtex2html -nodoc -nobibsource -html-entities -d -r tqai.bib  -->
+     bibtex2html -nodoc -nobibsource -noabstract -nokeywords -html-entities -d -r tqai.bib  -->
 
 
 <table>
@@ -28,10 +31,9 @@ hero_height: 400px
 <td class="bibtexitem">
 Ji&nbsp;Guan, Wang Fang, and Mingsheng Ying.
  Robustness verification of quantum classifiers.
- In Alexandra Silva and K.&nbsp;Rustan&nbsp;M. Leino, editors, <em>Computer
-  Aided Verification - 33rd International Conference, CAV 2021, Virtual
-  Event, July 20-23, 2021, Proceedings, Part I</em>, volume 12759 of <em>Lecture
-  Notes in Computer Science</em>, pages 151&ndash;174. Springer, 2021.
+ In <em>Computer Aided Verification - 33rd International Conference,
+  CAV 2021</em>, volume 12759 of <em>Lecture Notes in Computer Science</em>, pages
+  151&ndash;174. Springer, 2021.
 [&nbsp;<a href="http://dx.doi.org/10.1007/978-3-030-81685-8\_7">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1007/978-3-030-81685-8\_7">http</a>&nbsp;]
 

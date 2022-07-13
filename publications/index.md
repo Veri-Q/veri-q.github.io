@@ -4,11 +4,18 @@ subtitle: Published
 layout: page
 menubar: menu_publications
 hero_height: 400px
+menu_image: /publications/book_cover.jpg
+menu_image_caption: Foundations of Quantum Programming
 ---
 
 <style>
     table tr {
         border-bottom: 2px solid #fff;
+    }
+    .tag:not(body).custom_tag {
+        white-space: normal;
+        height: auto;
+        font-size: 0.8rem;
     }
 </style>
 
@@ -46,10 +53,8 @@ Xin Hong, Xiangzhen Zhou, Sanjiang Li, Yuan Feng, and Mingsheng Ying.
 Yuxiang Peng, Mingsheng Ying, and Xiaodi Wu.
  Algebraic reasoning of quantum programs via non-idempotent kleene
   algebra.
- In Ranjit Jhala and Isil Dillig, editors, <em>PLDI '22: 43rd ACM
-  SIGPLAN International Conference on Programming Language Design and
-  Implementation, San Diego, CA, USA, June 13 - 17, 2022</em>, pages 657&ndash;670.
-  ACM, 2022.
+ In <em>PLDI '22: 43rd ACM SIGPLAN International Conference on
+  Programming Language Design and Implementation</em>, pages 657&ndash;670. ACM, 2022.
 [&nbsp;<a href="http://dx.doi.org/10.1145/3519939.3523713">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1145/3519939.3523713">http</a>&nbsp;]
 
@@ -96,8 +101,7 @@ Li&nbsp;Zhou, Gilles Barthe, Justin Hsu, Mingsheng Ying, and Nengkun Yu.
  A quantum interpretation of bunched logic &amp; quantum separation
   logic.
  In <em>36th Annual ACM/IEEE Symposium on Logic in Computer
-  Science, LICS 2021, Rome, Italy, June 29 - July 2, 2021</em>, pages 1&ndash;14.
-  IEEE, 2021.
+  Science, LICS 2021</em>, pages 1&ndash;14. IEEE, 2021.
 [&nbsp;<a href="http://dx.doi.org/10.1109/LICS52264.2021.9470673">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1109/LICS52264.2021.9470673">http</a>&nbsp;]
 
@@ -112,10 +116,9 @@ Li&nbsp;Zhou, Gilles Barthe, Justin Hsu, Mingsheng Ying, and Nengkun Yu.
 <td class="bibtexitem">
 Mingsheng Ying.
  Model checking for verification of quantum circuits.
- In Marieke Huisman, Corina&nbsp;S. Pasareanu, and Naijun Zhan, editors,
-  <em>Formal Methods - 24th International Symposium, FM 2021, Virtual Event,
-  November 20-26, 2021, Proceedings</em>, volume 13047 of <em>Lecture Notes in
-  Computer Science</em>, pages 23&ndash;39. Springer, 2021.
+ In <em>Formal Methods - 24th International Symposium, FM 2021</em>,
+  volume 13047 of <em>Lecture Notes in Computer Science</em>, pages 23&ndash;39.
+  Springer, 2021.
 [&nbsp;<a href="http://dx.doi.org/10.1007/978-3-030-90870-6\_2">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1007/978-3-030-90870-6\_2">http</a>&nbsp;]
 
@@ -130,8 +133,8 @@ Mingsheng Ying.
 <td class="bibtexitem">
 Xin Hong, Mingsheng Ying, Yuan Feng, Xiangzhen Zhou, and Sanjiang Li.
  Approximate equivalence checking of noisy quantum circuits.
- In <em>58th ACM/IEEE Design Automation Conference, DAC 2021, San
-  Francisco, CA, USA, December 5-9, 2021</em>, pages 637&ndash;642. IEEE, 2021.
+ In <em>58th ACM/IEEE Design Automation Conference, DAC 2021</em>,
+  pages 637&ndash;642. IEEE, 2021.
 [&nbsp;<a href="http://dx.doi.org/10.1109/DAC18074.2021.9586214">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1109/DAC18074.2021.9586214">http</a>&nbsp;]
 
@@ -210,7 +213,7 @@ Gushu Li, Li&nbsp;Zhou, Nengkun Yu, Yufei Ding, Mingsheng Ying, and Yuan Xie.
  <em>Proc. ACM Program. Lang.</em>, 4(OOPSLA):150:1&ndash;150:29, 2020.
 [&nbsp;<a href="http://dx.doi.org/10.1145/3428218">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1145/3428218">http</a>&nbsp;]
-
+<a href="https://2020.splashcon.org/track/splash-2020-oopsla#event-overview">{% include tag.html tag="Distinguished Paper Award at OOPSLA 2020" style="custom_tag is-primary" %}</a>
 </td>
 </tr>
 
@@ -225,7 +228,7 @@ Riling Li, Bujiao Wu, Mingsheng Ying, Xiaoming Sun, and Guangwen Yang.
  <em>IEEE Trans. Parallel Distributed Syst.</em>, 31(4):805&ndash;816, 2020.
 [&nbsp;<a href="http://dx.doi.org/10.1109/TPDS.2019.2947511">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1109/TPDS.2019.2947511">http</a>&nbsp;]
-
+{% include tag.html tag="2020 Best paper Award for IEEE Transactions on Parallel and Distributed Systems" style="custom_tag is-primary"%}
 </td>
 </tr>
 
@@ -252,9 +255,8 @@ Li&nbsp;Zhou, Shenggang Ying, Nengkun Yu, and Mingsheng Ying.
 <td class="bibtexitem">
 Li&nbsp;Zhou, Nengkun Yu, and Mingsheng Ying.
  An applied quantum hoare logic.
- In Kathryn&nbsp;S. McKinley and Kathleen Fisher, editors, <em>Proceedings
-  of the 40th ACM SIGPLAN Conference on Programming Language Design and
-  Implementation, PLDI 2019, Phoenix, AZ, USA, June 22-26, 2019</em>, pages
+ In <em>Proceedings of the 40th ACM SIGPLAN Conference on
+  Programming Language Design and Implementation, PLDI 2019</em>, pages
   1149&ndash;1162. ACM, 2019.
 [&nbsp;<a href="http://dx.doi.org/10.1145/3314221.3314584">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1145/3314221.3314584">http</a>&nbsp;]
@@ -271,10 +273,9 @@ Li&nbsp;Zhou, Nengkun Yu, and Mingsheng Ying.
 Junyi Liu, Bohua Zhan, Shuling Wang, Shenggang Ying, Tao Liu, Yangjia Li,
   Mingsheng Ying, and Naijun Zhan.
  Formal verification of quantum algorithms using quantum hoare logic.
- In Isil Dillig and Serdar Tasiran, editors, <em>Computer Aided
-  Verification - 31st International Conference, CAV 2019, New York City, NY,
-  USA, July 15-18, 2019, Proceedings, Part II</em>, volume 11562 of <em>Lecture
-  Notes in Computer Science</em>, pages 187&ndash;207. Springer, 2019.
+ In <em>Computer Aided Verification - 31st International Conference,
+  CAV 2019</em>, volume 11562 of <em>Lecture Notes in Computer Science</em>, pages
+  187&ndash;207. Springer, 2019.
 [&nbsp;<a href="http://dx.doi.org/10.1007/978-3-030-25543-5\_12">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1007/978-3-030-25543-5\_12">http</a>&nbsp;]
 
@@ -395,9 +396,8 @@ Shenggang Ying and Mingsheng Ying.
 <td class="bibtexitem">
 Mingsheng Ying, Shenggang Ying, and Xiaodi Wu.
  Invariants of quantum programs: characterisations and generation.
- In Giuseppe Castagna and Andrew&nbsp;D. Gordon, editors, <em>Proceedings
-  of the 44th ACM SIGPLAN Symposium on Principles of Programming Languages,
-  POPL 2017, Paris, France, January 18-20, 2017</em>, pages 818&ndash;832. ACM,
+ In <em>Proceedings of the 44th ACM SIGPLAN Symposium on
+  Principles of Programming Languages, POPL 2017</em>, pages 818&ndash;832. ACM,
   2017.
 [&nbsp;<a href="http://dx.doi.org/10.1145/3009837.3009840">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1145/3009837.3009840">http</a>&nbsp;]
@@ -414,8 +414,7 @@ Mingsheng Ying, Shenggang Ying, and Xiaodi Wu.
 Li&nbsp;Zhou and Mingsheng Ying.
  Differential privacy in quantum computation.
  In <em>30th IEEE Computer Security Foundations Symposium, CSF
-  2017, Santa Barbara, CA, USA, August 21-25, 2017</em>, pages 249&ndash;262. IEEE
-  Computer Society, 2017.
+  2017</em>, pages 249&ndash;262. IEEE Computer Society, 2017.
 [&nbsp;<a href="http://dx.doi.org/10.1109/CSF.2017.23">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1109/CSF.2017.23">http</a>&nbsp;]
 
@@ -430,10 +429,9 @@ Li&nbsp;Zhou and Mingsheng Ying.
 <td class="bibtexitem">
 Yuan Feng and Mingsheng Ying.
  Toward automatic verification of quantum cryptographic protocols.
- In Luca Aceto and David de&nbsp;Frutos-Escrig, editors, <em>26th
-  International Conference on Concurrency Theory, CONCUR 2015, Madrid, Spain,
-  September 1.4, 2015</em>, volume&nbsp;42 of <em>LIPIcs</em>, pages 441&ndash;455. Schloss
-  Dagstuhl - Leibniz-Zentrum f&uuml;r Informatik, 2015.
+ In <em>26th International Conference on Concurrency Theory, CONCUR
+  2015</em>, volume&nbsp;42 of <em>LIPIcs</em>, pages 441&ndash;455. Schloss Dagstuhl -
+  Leibniz-Zentrum f&uuml;r Informatik, 2015.
 [&nbsp;<a href="http://dx.doi.org/10.4230/LIPIcs.CONCUR.2015.441">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.4230/LIPIcs.CONCUR.2015.441">http</a>&nbsp;]
 
@@ -463,10 +461,9 @@ Yangjia Li, Nengkun Yu, and Mingsheng Ying.
 <td class="bibtexitem">
 Yangjia Li and Mingsheng Ying.
  (un)decidable problems about reachability of quantum systems.
- In Paolo Baldan and Daniele Gorla, editors, <em>CONCUR 2014 -
-  Concurrency Theory - 25th International Conference, CONCUR 2014, Rome,
-  Italy, September 2-5, 2014. Proceedings</em>, volume 8704 of <em>Lecture Notes
-  in Computer Science</em>, pages 482&ndash;496. Springer, 2014.
+ In <em>CONCUR 2014 - Concurrency Theory - 25th International
+  Conference, CONCUR 2014</em>, volume 8704 of <em>Lecture Notes in Computer
+  Science</em>, pages 482&ndash;496. Springer, 2014.
 [&nbsp;<a href="http://dx.doi.org/10.1007/978-3-662-44584-6\_33">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1007/978-3-662-44584-6\_33">http</a>&nbsp;]
 
@@ -542,11 +539,9 @@ Mingsheng Ying, Nengkun Yu, Yuan Feng, and Runyao Duan.
 <td class="bibtexitem">
 Yuan Feng, Nengkun Yu, and Mingsheng Ying.
  Reachability analysis of recursive quantum markov chains.
- In Krishnendu Chatterjee and Jir&iacute; Sgall, editors, <em>
-  Mathematical Foundations of Computer Science 2013 - 38th International
-  Symposium, MFCS 2013, Klosterneuburg, Austria, August 26-30, 2013.
-  Proceedings</em>, volume 8087 of <em>Lecture Notes in Computer Science</em>, pages
-  385&ndash;396. Springer, 2013.
+ In <em>Mathematical Foundations of Computer Science 2013 - 38th
+  International Symposium, MFCS 2013</em>, volume 8087 of <em>Lecture Notes in
+  Computer Science</em>, pages 385&ndash;396. Springer, 2013.
 [&nbsp;<a href="http://dx.doi.org/10.1007/978-3-642-40313-2\_35">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1007/978-3-642-40313-2\_35">http</a>&nbsp;]
 
@@ -562,9 +557,8 @@ Yuan Feng, Nengkun Yu, and Mingsheng Ying.
 Mingsheng Ying, Yuan Feng, and Nengkun Yu.
  Quantum information-flow security: Noninterference and access
   control.
- In <em>2013 IEEE 26th Computer Security Foundations Symposium, New
-  Orleans, LA, USA, June 26-28, 2013</em>, pages 130&ndash;144. IEEE Computer Society,
-  2013.
+ In <em>2013 IEEE 26th Computer Security Foundations Symposium</em>,
+  pages 130&ndash;144. IEEE Computer Society, 2013.
 [&nbsp;<a href="http://dx.doi.org/10.1109/CSF.2013.16">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1109/CSF.2013.16">http</a>&nbsp;]
 
@@ -579,10 +573,9 @@ Mingsheng Ying, Yuan Feng, and Nengkun Yu.
 <td class="bibtexitem">
 Shenggang Ying, Yuan Feng, Nengkun Yu, and Mingsheng Ying.
  Reachability probabilities of quantum markov chains.
- In Pedro&nbsp;R. D'Argenio and Hern&aacute;n&nbsp;C. Melgratti, editors, <em>
-  CONCUR 2013 - Concurrency Theory - 24th International Conference, CONCUR
-  2013, Buenos Aires, Argentina, August 27-30, 2013. Proceedings</em>, volume 8052
-  of <em>Lecture Notes in Computer Science</em>, pages 334&ndash;348. Springer, 2013.
+ In <em>CONCUR 2013 - Concurrency Theory - 24th International
+  Conference, CONCUR 2013</em>, volume 8052 of <em>Lecture Notes in Computer
+  Science</em>, pages 334&ndash;348. Springer, 2013.
 [&nbsp;<a href="http://dx.doi.org/10.1007/978-3-642-40184-8\_24">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1007/978-3-642-40184-8\_24">http</a>&nbsp;]
 
@@ -607,30 +600,14 @@ Yuan Feng, Nengkun Yu, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/jcss/CaoXY13">37</a>]
-</td>
-<td class="bibtexitem">
-Yongzhi Cao, Lirong Xia, and Mingsheng Ying.
- Probabilistic automata for computing with words.
- <em>J. Comput. Syst. Sci.</em>, 79(1):152&ndash;172, 2013.
-[&nbsp;<a href="http://dx.doi.org/10.1016/j.jcss.2012.09.002">DOI</a>&nbsp;| 
-<a href="https://doi.org/10.1016/j.jcss.2012.09.002">http</a>&nbsp;]
-
-</td>
-</tr>
-
-
-<tr valign="top">
-<td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/concur/YuY12">38</a>]
+[<a name="DBLP:conf/concur/YuY12">37</a>]
 </td>
 <td class="bibtexitem">
 Nengkun Yu and Mingsheng Ying.
  Reachability and termination analysis of concurrent quantum programs.
- In Maciej Koutny and Irek Ulidowski, editors, <em>CONCUR 2012 -
-  Concurrency Theory - 23rd International Conference, CONCUR 2012, Newcastle
-  upon Tyne, UK, September 4-7, 2012. Proceedings</em>, volume 7454 of <em>Lecture
-  Notes in Computer Science</em>, pages 69&ndash;83. Springer, 2012.
+ In <em>CONCUR 2012 - Concurrency Theory - 23rd International
+  Conference</em>, volume 7454 of <em>Lecture Notes in Computer Science</em>, pages
+  69&ndash;83. Springer, 2012.
 [&nbsp;<a href="http://dx.doi.org/10.1007/978-3-642-32940-1\_7">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1007/978-3-642-32940-1\_7">http</a>&nbsp;]
 
@@ -640,7 +617,7 @@ Nengkun Yu and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/toplas/FengDY12">39</a>]
+[<a name="DBLP:journals/toplas/FengDY12">38</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Runyao Duan, and Mingsheng Ying.
@@ -655,22 +632,7 @@ Yuan Feng, Runyao Duan, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tcs/ZhouY12">40</a>]
-</td>
-<td class="bibtexitem">
-Chunlai Zhou and Mingsheng Ying.
- Approximating markov processes through filtration.
- <em>Theor. Comput. Sci.</em>, 446:75&ndash;97, 2012.
-[&nbsp;<a href="http://dx.doi.org/10.1016/j.tcs.2012.03.026">DOI</a>&nbsp;| 
-<a href="https://doi.org/10.1016/j.tcs.2012.03.026">http</a>&nbsp;]
-
-</td>
-</tr>
-
-
-<tr valign="top">
-<td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tse/YingF11">41</a>]
+[<a name="DBLP:journals/tse/YingF11">39</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying and Yuan Feng.
@@ -685,7 +647,7 @@ Mingsheng Ying and Yuan Feng.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/toplas/Ying11">42</a>]
+[<a name="DBLP:journals/toplas/Ying11">40</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying.
@@ -700,14 +662,13 @@ Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/popl/FengDY11">43</a>]
+[<a name="DBLP:conf/popl/FengDY11">41</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Runyao Duan, and Mingsheng Ying.
  Bisimulation for quantum processes.
- In Thomas Ball and Mooly Sagiv, editors, <em>Proceedings of the 38th
-  ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages,
-  POPL 2011, Austin, TX, USA, January 26-28, 2011</em>, pages 523&ndash;534. ACM,
+ In <em>Proceedings of the 38th ACM SIGPLAN-SIGACT Symposium on
+  Principles of Programming Languages, POPL 2011</em>, pages 523&ndash;534. ACM,
   2011.
 [&nbsp;<a href="http://dx.doi.org/10.1145/1926385.1926446">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1145/1926385.1926446">http</a>&nbsp;]
@@ -718,24 +679,7 @@ Yuan Feng, Runyao Duan, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/ijcai/ZhangZYZ11">44</a>]
-</td>
-<td class="bibtexitem">
-Heng Zhang, Yan Zhang, Mingsheng Ying, and Yi&nbsp;Zhou.
- Translating first-order theories into logic programs.
- In Toby Walsh, editor, <em>IJCAI 2011, Proceedings of the 22nd
-  International Joint Conference on Artificial Intelligence, Barcelona,
-  Catalonia, Spain, July 16-22, 2011</em>, pages 1126&ndash;1131. IJCAI/AAAI, 2011.
-[&nbsp;<a href="http://dx.doi.org/10.5591/978-1-57735-516-8/IJCAI11-192">DOI</a>&nbsp;| 
-<a href="https://doi.org/10.5591/978-1-57735-516-8/IJCAI11-192">http</a>&nbsp;]
-
-</td>
-</tr>
-
-
-<tr valign="top">
-<td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/acta/YingF10">45</a>]
+[<a name="DBLP:journals/acta/YingF10">42</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying and Yuan Feng.
@@ -750,25 +694,7 @@ Mingsheng Ying and Yuan Feng.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/aplas/Ying10">46</a>]
-</td>
-<td class="bibtexitem">
-Mingsheng Ying.
- Foundations of quantum programming (extended abstract).
- In Kazunori Ueda, editor, <em>Programming Languages and Systems -
-  8th Asian Symposium, APLAS 2010, Shanghai, China, November 28 - December 1,
-  2010. Proceedings</em>, volume 6461 of <em>Lecture Notes in Computer Science</em>,
-  pages 16&ndash;20. Springer, 2010.
-[&nbsp;<a href="http://dx.doi.org/10.1007/978-3-642-17164-2\_2">DOI</a>&nbsp;| 
-<a href="https://doi.org/10.1007/978-3-642-17164-2\_2">http</a>&nbsp;]
-
-</td>
-</tr>
-
-
-<tr valign="top">
-<td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/qic/ChenY10">47</a>]
+[<a name="DBLP:journals/qic/ChenY10">43</a>]
 </td>
 <td class="bibtexitem">
 Jianxin Chen and Mingsheng Ying.
@@ -783,7 +709,7 @@ Jianxin Chen and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/qic/JiCWY10">48</a>]
+[<a name="DBLP:journals/qic/JiCWY10">44</a>]
 </td>
 <td class="bibtexitem">
 Zheng-Feng Ji, Jianxin Chen, Zhaohui Wei, and Mingsheng Ying.
@@ -798,7 +724,7 @@ Zheng-Feng Ji, Jianxin Chen, Zhaohui Wei, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/ai/Ying10">49</a>]
+[<a name="DBLP:journals/ai/Ying10">45</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying.
@@ -813,7 +739,7 @@ Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tocl/YingFDJ09">50</a>]
+[<a name="DBLP:journals/tocl/YingFDJ09">46</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying, Yuan Feng, Runyao Duan, and Zheng-Feng Ji.
@@ -828,7 +754,7 @@ Mingsheng Ying, Yuan Feng, Runyao Duan, and Zheng-Feng Ji.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tit/DuanFXY09">51</a>]
+[<a name="DBLP:journals/tit/DuanFXY09">47</a>]
 </td>
 <td class="bibtexitem">
 Runyao Duan, Yuan Feng, Yu&nbsp;Xin, and Mingsheng Ying.
@@ -843,7 +769,7 @@ Runyao Duan, Yuan Feng, Yu&nbsp;Xin, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tc/YingF09">52</a>]
+[<a name="DBLP:journals/tc/YingF09">48</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying and Yuan Feng.
@@ -858,7 +784,7 @@ Mingsheng Ying and Yuan Feng.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/qic/FengDY11">53</a>]
+[<a name="DBLP:journals/qic/FengDY11">49</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Runyao Duan, and Mingsheng Ying.
@@ -874,7 +800,7 @@ Yuan Feng, Runyao Duan, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tit/JiWDFY08">54</a>]
+[<a name="DBLP:journals/tit/JiWDFY08">50</a>]
 </td>
 <td class="bibtexitem">
 Zheng-Feng Ji, Guoming Wang, Runyao Duan, Yuan Feng, and Mingsheng Ying.
@@ -889,7 +815,7 @@ Zheng-Feng Ji, Guoming Wang, Runyao Duan, Yuan Feng, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tcs/FengDJY07">55</a>]
+[<a name="DBLP:journals/tcs/FengDJY07">51</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Runyao Duan, Zheng-Feng Ji, and Mingsheng Ying.
@@ -904,7 +830,7 @@ Yuan Feng, Runyao Duan, Zheng-Feng Ji, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/ipl/YingCFD07">56</a>]
+[<a name="DBLP:journals/ipl/YingCFD07">52</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying, Jianxin Chen, Yuan Feng, and Runyao Duan.
@@ -919,7 +845,7 @@ Mingsheng Ying, Jianxin Chen, Yuan Feng, and Runyao Duan.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/iandc/FengDJY07">57</a>]
+[<a name="DBLP:journals/iandc/FengDJY07">53</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Runyao Duan, Zheng-Feng Ji, and Mingsheng Ying.
@@ -934,7 +860,7 @@ Yuan Feng, Runyao Duan, Zheng-Feng Ji, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tit/DuanFY06">58</a>]
+[<a name="DBLP:journals/tit/DuanFY06">54</a>]
 </td>
 <td class="bibtexitem">
 Runyao Duan, Yuan Feng, and Mingsheng Ying.
@@ -949,7 +875,7 @@ Runyao Duan, Yuan Feng, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/jcst/DuanJFY06">59</a>]
+[<a name="DBLP:journals/jcst/DuanJFY06">55</a>]
 </td>
 <td class="bibtexitem">
 Runyao Duan, Zheng-Feng Ji, Yuan Feng, and Mingsheng Ying.
@@ -964,24 +890,7 @@ Runyao Duan, Zheng-Feng Ji, Yuan Feng, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/grc/Ying05">60</a>]
-</td>
-<td class="bibtexitem">
-Mingsheng Ying.
- A theory of computation based on quantum logic (I).
- In Xiaohua Hu, Qing Liu, Andrzej Skowron, Tsau&nbsp;Young Lin, Ronald&nbsp;R.
-  Yager, and Bo&nbsp;Zhang, editors, <em>2005 IEEE International Conference on
-  Granular Computing, Beijing, China, July 25-27, 2005</em>, page&nbsp;91. IEEE, 2005.
-[&nbsp;<a href="http://dx.doi.org/10.1109/GRC.2005.1547240">DOI</a>&nbsp;| 
-<a href="https://doi.org/10.1109/GRC.2005.1547240">http</a>&nbsp;]
-
-</td>
-</tr>
-
-
-<tr valign="top">
-<td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tit/FengDY05">61</a>]
+[<a name="DBLP:journals/tit/FengDY05">56</a>]
 </td>
 <td class="bibtexitem">
 Yuan Feng, Runyao Duan, and Mingsheng Ying.
@@ -996,7 +905,7 @@ Yuan Feng, Runyao Duan, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tit/SunDY05">62</a>]
+[<a name="DBLP:journals/tit/SunDY05">57</a>]
 </td>
 <td class="bibtexitem">
 Xiaoming Sun, Runyao Duan, and Mingsheng Ying.
@@ -1011,7 +920,7 @@ Xiaoming Sun, Runyao Duan, and Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tcs/Ying05">63</a>]
+[<a name="DBLP:journals/tcs/Ying05">58</a>]
 </td>
 <td class="bibtexitem">
 Mingsheng Ying.
@@ -1026,22 +935,7 @@ Mingsheng Ying.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/acta/Ying05">64</a>]
-</td>
-<td class="bibtexitem">
-Mingsheng Ying.
- pi-calculus with noisy channels.
- <em>Acta Informatica</em>, 41(9):525&ndash;593, 2005.
-[&nbsp;<a href="http://dx.doi.org/10.1007/s00236-005-0168-0">DOI</a>&nbsp;| 
-<a href="https://doi.org/10.1007/s00236-005-0168-0">http</a>&nbsp;]
-
-</td>
-</tr>
-
-
-<tr valign="top">
-<td align="right" class="bibtexnumber">
-[<a name="DBLP:journals/tcs/QiuY04">65</a>]
+[<a name="DBLP:journals/tcs/QiuY04">59</a>]
 </td>
 <td class="bibtexitem">
 Daowen Qiu and Mingsheng Ying.

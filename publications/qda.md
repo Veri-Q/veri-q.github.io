@@ -4,6 +4,8 @@ subtitle: QDA (Design Automation for Quantum Computing)
 layout: page
 menubar: menu_publications
 hero_height: 400px
+menu_image: /publications/book_cover.jpg
+menu_image_caption: Foundations of Quantum Programming
 ---
 
 <style>
@@ -11,6 +13,7 @@ hero_height: 400px
         border-bottom: 2px solid #fff;
     }
 </style>
+
 
 
 <!-- This document was automatically generated with bibtex2html 1.99
@@ -59,8 +62,8 @@ Qisheng Wang, Riling Li, and Mingsheng Ying.
 <td class="bibtexitem">
 Xin Hong, Mingsheng Ying, Yuan Feng, Xiangzhen Zhou, and Sanjiang Li.
  Approximate equivalence checking of noisy quantum circuits.
- In <em>58th ACM/IEEE Design Automation Conference, DAC 2021, San
-  Francisco, CA, USA, December 5-9, 2021</em>, pages 637&ndash;642. IEEE, 2021.
+ In <em>58th ACM/IEEE Design Automation Conference, DAC 2021</em>,
+  pages 637&ndash;642. IEEE, 2021.
 [&nbsp;<a href="http://dx.doi.org/10.1109/DAC18074.2021.9586214">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1109/DAC18074.2021.9586214">http</a>&nbsp;]
 

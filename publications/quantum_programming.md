@@ -4,19 +4,27 @@ subtitle: Quantum Programming
 layout: page
 menubar: menu_publications
 hero_height: 400px
+menu_image: /publications/book_cover.jpg
+menu_image_caption: Foundations of Quantum Programming
 ---
 
 <style>
     table tr {
         border-bottom: 2px solid #fff;
     }
+    .tag:not(body).custom_tag {
+        white-space: normal;
+        height: auto;
+        font-size: 0.8rem;
+    }
 </style>
+
 
 
 <!-- This document was automatically generated with bibtex2html 1.99
      (see http://www.lri.fr/~filliatr/bibtex2html/),
      with the following command:
-     bibtex2html -nodoc -nobibsource -html-entities -d -r pl.bib  -->
+     bibtex2html -nodoc -nobibsource -noabstract -nokeywords -html-entities -d -r quantum_programming.bib  -->
 
 
 <table>
@@ -29,10 +37,8 @@ hero_height: 400px
 Yuxiang Peng, Mingsheng Ying, and Xiaodi Wu.
  Algebraic reasoning of quantum programs via non-idempotent kleene
   algebra.
- In Ranjit Jhala and Isil Dillig, editors, <em>PLDI '22: 43rd ACM
-  SIGPLAN International Conference on Programming Language Design and
-  Implementation, San Diego, CA, USA, June 13 - 17, 2022</em>, pages 657&ndash;670.
-  ACM, 2022.
+ In <em>PLDI '22: 43rd ACM SIGPLAN International Conference on
+  Programming Language Design and Implementation</em>, pages 657&ndash;670. ACM, 2022.
 [&nbsp;<a href="http://dx.doi.org/10.1145/3519939.3523713">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1145/3519939.3523713">http</a>&nbsp;]
 
@@ -64,8 +70,7 @@ Li&nbsp;Zhou, Gilles Barthe, Justin Hsu, Mingsheng Ying, and Nengkun Yu.
  A quantum interpretation of bunched logic &amp; quantum separation
   logic.
  In <em>36th Annual ACM/IEEE Symposium on Logic in Computer
-  Science, LICS 2021, Rome, Italy, June 29 - July 2, 2021</em>, pages 1&ndash;14.
-  IEEE, 2021.
+  Science, LICS 2021</em>, pages 1&ndash;14. IEEE, 2021.
 [&nbsp;<a href="http://dx.doi.org/10.1109/LICS52264.2021.9470673">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1109/LICS52264.2021.9470673">http</a>&nbsp;]
 
@@ -99,6 +104,7 @@ Gushu Li, Li&nbsp;Zhou, Nengkun Yu, Yufei Ding, Mingsheng Ying, and Yuan Xie.
  <em>Proc. ACM Program. Lang.</em>, 4(OOPSLA):150:1&ndash;150:29, 2020.
 [&nbsp;<a href="http://dx.doi.org/10.1145/3428218">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1145/3428218">http</a>&nbsp;]
+<a href="https://2020.splashcon.org/track/splash-2020-oopsla#event-overview">{% include tag.html tag="Distinguished Paper Award at OOPSLA 2020" style="custom_tag is-primary" %}</a>
 
 </td>
 </tr>
@@ -111,9 +117,8 @@ Gushu Li, Li&nbsp;Zhou, Nengkun Yu, Yufei Ding, Mingsheng Ying, and Yuan Xie.
 <td class="bibtexitem">
 Li&nbsp;Zhou, Nengkun Yu, and Mingsheng Ying.
  An applied quantum hoare logic.
- In Kathryn&nbsp;S. McKinley and Kathleen Fisher, editors, <em>Proceedings
-  of the 40th ACM SIGPLAN Conference on Programming Language Design and
-  Implementation, PLDI 2019, Phoenix, AZ, USA, June 22-26, 2019</em>, pages
+ In <em>Proceedings of the 40th ACM SIGPLAN Conference on
+  Programming Language Design and Implementation, PLDI 2019</em>, pages
   1149&ndash;1162. ACM, 2019.
 [&nbsp;<a href="http://dx.doi.org/10.1145/3314221.3314584">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1145/3314221.3314584">http</a>&nbsp;]
@@ -130,10 +135,9 @@ Li&nbsp;Zhou, Nengkun Yu, and Mingsheng Ying.
 Junyi Liu, Bohua Zhan, Shuling Wang, Shenggang Ying, Tao Liu, Yangjia Li,
   Mingsheng Ying, and Naijun Zhan.
  Formal verification of quantum algorithms using quantum hoare logic.
- In Isil Dillig and Serdar Tasiran, editors, <em>Computer Aided
-  Verification - 31st International Conference, CAV 2019, New York City, NY,
-  USA, July 15-18, 2019, Proceedings, Part II</em>, volume 11562 of <em>Lecture
-  Notes in Computer Science</em>, pages 187&ndash;207. Springer, 2019.
+ In <em>Computer Aided Verification - 31st International Conference,
+  CAV 2019</em>, volume 11562 of <em>Lecture Notes in Computer Science</em>, pages
+  187&ndash;207. Springer, 2019.
 [&nbsp;<a href="http://dx.doi.org/10.1007/978-3-030-25543-5\_12">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1007/978-3-030-25543-5\_12">http</a>&nbsp;]
 
@@ -209,9 +213,8 @@ Yangjia Li and Mingsheng Ying.
 <td class="bibtexitem">
 Mingsheng Ying, Shenggang Ying, and Xiaodi Wu.
  Invariants of quantum programs: characterisations and generation.
- In Giuseppe Castagna and Andrew&nbsp;D. Gordon, editors, <em>Proceedings
-  of the 44th ACM SIGPLAN Symposium on Principles of Programming Languages,
-  POPL 2017, Paris, France, January 18-20, 2017</em>, pages 818&ndash;832. ACM,
+ In <em>Proceedings of the 44th ACM SIGPLAN Symposium on
+  Principles of Programming Languages, POPL 2017</em>, pages 818&ndash;832. ACM,
   2017.
 [&nbsp;<a href="http://dx.doi.org/10.1145/3009837.3009840">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.1145/3009837.3009840">http</a>&nbsp;]
@@ -308,4 +311,5 @@ Yuan Feng, Runyao Duan, Zheng-Feng Ji, and Mingsheng Ying.
 
 </td>
 </tr>
-</table>
+</table><hr><p><em>This file was generated by
+<a href="http://www.lri.fr/~filliatr/bibtex2html/">bibtex2html</a> 1.99.</em></p>

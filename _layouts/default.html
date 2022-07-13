@@ -33,6 +33,12 @@
                 {% elsif page.menubar %}
                 <div class="column is-4-desktop is-4-tablet">
                     {% include menubar.html %}
+                    {% if page.menu_image %}
+                        {% if page.menu_image_caption %}
+                            <p class="menu-label">{{ page.menu_image_caption }}</p>
+                        {% endif %}
+                        <img src="{{ page.menu_image}}" width="75%" style="margin-left:7%"/>
+                    {% endif %}
                 </div>
                 {% endif %}
                 <div class="column {{ content_width }}">
