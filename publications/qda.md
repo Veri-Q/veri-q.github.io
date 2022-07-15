@@ -4,8 +4,7 @@ subtitle: QDA (Design Automation for Quantum Computing)
 layout: page
 menubar: menu_publications
 hero_height: 400px
-menu_image: /publications/book_cover.jpg
-menu_image_caption: Foundations of Quantum Programming
+menuimages: menu_images
 ---
 
 <style>

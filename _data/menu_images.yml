@@ -1,0 +1,7 @@
+items:
+  - name: Foundations of Quantum Programming
+    path: /publications/book_cover.jpg
+    link: https://doi.org/10.1016/C2014-0-02660-3
+  - name: Model Checking Quantum Systems
+    path: /publications/book_cover1.jpg
+    link: https://doi.org/10.1017/9781108613323
