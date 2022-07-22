@@ -12,7 +12,14 @@ hero_height: custom
 }
 .custom-width {max-width: 800px}
 .hero.custom {
-  padding: 1.25rem;
+    padding: 1.25rem;
+}
+.icon.custom {
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    overflow: hidden;
 }
 </style>
 
@@ -27,18 +34,18 @@ hero_height: custom
             <div class="columns is-multiline is-centered">
                 {% for callout in callouts.items %}
                     <div class="column is-4 has-text-centered">
-                        {% if callout.icon %}
-                        <div class="icon callout-icon">
-                        {% if callout.icon_brand %}
-                            <i class="fab {{ callout.icon }} fa-4x"></i>
-                        {% else %}
-                            <i class="fas {{ callout.icon }} fa-4x"></i>
-                        {% endif %}
+                        {% if callout.link %}<a href=" {{ callout.link }}">{% endif %}
+                        <div class="icon custom">
+                            {% if callout.icon %}
+                            <img src="{{callout.icon}}">
+                            {% else %}
+                            <i class="fas fa-user-circle"></i>
+                            {% endif %}
                         </div>
-                        {% endif %}
                         <p class="title is-5">{{ callout.title }}</p>
                         <p class="subtitle is-5">{{ callout.subtitle }}</p>
-                        
+                        {% if callout.link %}</a>{% endif %}
+
                         {% if callout.description %}
                         <div class="content">
                             <p>{{ callout.description | newline_to_br }}</p>
@@ -67,17 +74,17 @@ hero_height: custom
             <div class="columns is-multiline is-centered">
                 {% for callout in callouts.items %}
                     <div class="column is-4 has-text-centered">
-                        {% if callout.icon %}
-                        <div class="icon callout-icon">
-                        {% if callout.icon_brand %}
-                            <i class="fab {{ callout.icon }} fa-4x"></i>
-                        {% else %}
-                            <i class="fas {{ callout.icon }} fa-4x"></i>
-                        {% endif %}
+                        {% if callout.link %}<a href=" {{ callout.link }}">{% endif %}
+                        <div class="icon custom">
+                            {% if callout.icon %}
+                            <img src="{{callout.icon}}">
+                            {% else %}
+                            <i class="fas fa-user-circle fa-4x"></i>
+                            {% endif %}
                         </div>
-                        {% endif %}
                         <p class="title is-5">{{ callout.title }}</p>
                         <p class="subtitle is-5">{{ callout.subtitle }}</p>
+                        {% if callout.link %}</a>{% endif %}
                         
                         {% if callout.description %}
                         <div class="content">

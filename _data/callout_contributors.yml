@@ -2,29 +2,29 @@ style: is-light
 height: is-small
 items:
   - title: Kean Chen
-    icon: fa-user-circle
+    icon: /pages/members_icon/keanchen.jpg
     description: >
       
 
   - title: Wang Fang
-    icon: fa-user-circle
+    icon:
     description: >
       
   
   - title: Xin Hong
-    icon: fa-user-circle
+    icon:
     description: >
       
   - title: Mingyu Huang
-    icon: fa-user-circle
+    icon: /pages/members_icon/mingyuhuang.jpg
     description: >
       
   - title: Junyi Liu
-    icon: fa-user-circle
+    icon:
     description: >
       
   - title: Qisheng Wang
-    icon: fa-user-circle
+    icon:
     description: >
       
   

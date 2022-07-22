@@ -2,11 +2,13 @@ style: is-light
 height: is-small
 items:
   - title: Ji Guan
-    icon: fa-user-circle
+    icon: /pages/members_icon/jiguan.jpg
+    link: https://scholar.google.com/citations?user=muIp5UIAAAAJ&hl=en
     description: >
 #      He is an outstanding computer scientist
 
   - title: Mingsheng Ying
-    icon: fa-user-circle
+    icon: /pages/members_icon/mingshengying.jpg
+    link: https://www.cs.tsinghua.edu.cn/csen/info/1186/4020.htm
     description: >
       
