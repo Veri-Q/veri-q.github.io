@@ -8,7 +8,7 @@ hero_height: 400px
 ---
 
 ## Approximate Equivalence Checker
-A Tensor Decision Based verifier for approximate equivalence checking of noisy quantum circuits.
+A Tensor Decision Diagram-based verifier for approximate equivalence checking of noisy quantum circuits.
 
 See [{% include tag.html tag="Github Repo" %}](https://github.com/Veriqc/Approximate-Equivalence-Checking)
 
@@ -26,6 +26,6 @@ Xin Hong, Mingsheng Ying, Yuan Feng, Xiangzhen Zhou, and Sanjiang Li.
 </td>
 
 ## Dynamic Quantum Circuit Checker
-A Tensor Decision Based verifier for equivalence checking of dynamic quantum circuits.
+A Tensor Decision Diagram-based verifier for equivalence checking of dynamic quantum circuits.
 
 See [{% include tag.html tag="Github Repo" %}](https://github.com/Veriqc/EC-for-Dynamic-Quantum-Circuits)

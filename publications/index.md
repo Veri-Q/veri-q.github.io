@@ -147,7 +147,7 @@ Xin Hong, Mingsheng Ying, Yuan Feng, Xiangzhen Zhou, and Sanjiang Li.
 </td>
 <td class="bibtexitem">
 Ji&nbsp;Guan, Qisheng Wang, and Mingsheng Ying.
- quantum walks.
+ An HHL-based algorithm for computing hitting probabilities of quantum walks.
  <em>Quantum Inf. Comput.</em>, 21(5&amp;6):395&ndash;408, 2021.
 [&nbsp;<a href="http://dx.doi.org/10.26421/QIC21.5-6-4">DOI</a>&nbsp;| 
 <a href="https://doi.org/10.26421/QIC21.5-6-4">http</a>&nbsp;]
