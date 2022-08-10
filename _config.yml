@@ -27,6 +27,9 @@ url: "veri-q.com" # the base hostname & protocol for your site, e.g. http://exam
 #twitter_username: jekyllrb
 github_username:  Veri-Q
 
+# Google Analytics
+google_analytics: UA-237068860-1
+
 # Build settings
 #theme: minima
 remote_theme: chrisrhymes/bulma-clean-theme
