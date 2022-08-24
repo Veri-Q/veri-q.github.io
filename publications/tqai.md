@@ -25,7 +25,24 @@ menuimages: menu_images
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="DBLP:conf/cav/GuanFY21">1</a>]
+[<a name="DBLP:conf/cav/GuanFY22">1</a>]
+</td>
+<td class="bibtexitem">
+Ji&nbsp;Guan, Wang Fang, and Mingsheng Ying.
+ Verifying fairness in quantum machine learning.
+ In <em>Computer Aided Verification - 34th International Conference,
+  CAV</em>, volume 13372 of <em>Lecture Notes in Computer Science</em>, pages
+  408&ndash;429. Springer, 2022.
+[&nbsp;<a href="http://dx.doi.org/10.1007/978-3-031-13188-2\_20">DOI</a>&nbsp;| 
+<a href="https://doi.org/10.1007/978-3-031-13188-2\_20">http</a>&nbsp;]
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="DBLP:conf/cav/GuanFY21">2</a>]
 </td>
 <td class="bibtexitem">
 Ji&nbsp;Guan, Wang Fang, and Mingsheng Ying.
